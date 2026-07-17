@@ -77,7 +77,7 @@ SQL/
 - Although Sales Representatives comprise only 20% of the  Job Family/Job Group, they account for 37% of all attrition within the Sales Job group/Family. This translates to approximately 33 employee exits, contributing 2.27 percentage points to the company's overall attrition rate of 16.12%, or roughly 14.1% of all employee departures company-wide.
 - Lower monthly income bands experience higher rate of attrition.
 
-- ## Business Impact
+## Business Impact
 
 This analysis enables HR leadership to:
 
@@ -104,7 +104,7 @@ I'm passionate about transforming raw data into actionable business insights and
 
 #### Skills Demonstrated
 
-- Data Cleaning
+- Data Cleaning        
 - Exploratory Data Analysis
 - Business Intelligence
 - Dashboard Development
