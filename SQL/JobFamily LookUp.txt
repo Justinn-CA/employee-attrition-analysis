@@ -1,0 +1,14 @@
+CREATE TABLE JobFamilyLookup (
+    JobRole TEXT,
+    JobFamily TEXT
+);
+INSERT INTO JobFamilyLookup (JobRole, JobFamily) VALUES
+('Healthcare Representative', 'Healthcare'),
+('Human Resources', 'Human Resources'),
+('Laboratory Technician', 'Research'),
+('Manager', 'Management'),
+('Manufacturing Director', 'Operations'),
+('Research Director', 'Research'),
+('Research Scientist', 'Research'),
+('Sales Executive', 'Sales'),
+('Sales Representative', 'Sales');

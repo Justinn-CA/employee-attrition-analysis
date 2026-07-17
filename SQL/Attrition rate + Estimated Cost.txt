@@ -1,0 +1,10 @@
+SELECT
+    JobFamilyLookup.JobFamily,
+    COUNT(*) AS TotalEmployees,
+    SUM(CASE WHEN Attrition = 'Yes' THEN 1 ELSE 0 END) AS NumberLeavers,
+    ROUND((SUM(CASE WHEN Attrition = 'Yes' THEN 1 ELSE 0 END)*1.0 / COUNT(*)), 2) AS AttritionRate,
+    SUM(CASE WHEN Attrition = 'Yes' THEN MonthlyIncome*12*1.5 ELSE 0 END) AS EstimatedCost
+FROM HR_Snapshot
+LEFT JOIN JobFamilyLookup ON HR_Snapshot.JobRole = JobFamilyLookup.JobRole
+GROUP BY JobFamilyLookup.JobFamily
+ORDER BY AttritionRate DESC;
