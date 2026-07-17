@@ -1,5 +1,10 @@
 
 #### **Project Title :  HR Analytics Case Study: Employee Attrition Analysis**
+![Excel](https://img.shields.io/badge/Excel-Data%20Analysis-217346?logo=microsoftexcel&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-Analytics-blue?logo=mysql&logoColor=white)
+![Python](https://img.shields.io/badge/Python-Pandas-yellow?logo=python&logoColor=white)
+![HR Analytics](https://img.shields.io/badge/Domain-HR%20Analytics-orange)
+![Status](https://img.shields.io/badge/Status-Completed-success)
 
 #### **Project Overview :**
 
@@ -33,11 +38,11 @@ Employee attrition is a significant challenge for organizations because replacin
 
 *Employee Attrition by Department*
 
-!Attrition Rate by Department.png
+![Attrition Rate by Department](Images/Attrition_Rate_by_Department.png)
 
 *Estimated Cost of Attrition by Department*
 
-!Attrition Cost by Department.png
+![Estimated Attrition Cost](Images/Attrition_Cost_by_Department.png)
 
 </aside>
 
@@ -71,6 +76,15 @@ SQL/
 - Overall rate of Attrition company wide is **16.12%.**
 - Although Sales Representatives comprise only 20% of the  Job Family/Job Group, they account for 37% of all attrition within the Sales Job group/Family. This translates to approximately 33 employee exits, contributing 2.27 percentage points to the company's overall attrition rate of 16.12%, or roughly 14.1% of all employee departures company-wide.
 - Lower monthly income bands experience higher rate of attrition.
+
+- ## Business Impact
+
+This analysis enables HR leadership to:
+
+- Prioritize retention spending where it will have the greatest return.
+- Identify departments requiring immediate intervention.
+- Quantify the financial cost of employee turnover.
+- Support evidence-based HR decision-making through interactive dashboards.
 
 **Recommendations:**
 
